@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  text-align: center;
+  font-family: "Poppins", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 5px;
+  background: rgb(238,174,202);
+  background: linear-gradient(0deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+
+h1 {
+  background-color: black;
+  color: hotpink;
+  display: inline-block;
+  padding: 10px 100px 10px 100px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: auto;
+}
+
+.b-ulti {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 8px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  color: #ae0152;
+  font-style: italic;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: auto;
+  transition: 0.5s;
+}
+
+img:hover {
+  transform: scale(1.1); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); 
+  cursor: pointer;
+}
+
+.desc-rose {
+  font-size: 14px;
+}
+
+button {
+  text-align: center;
+  font-family: "Poppins", system-ui;
+  font-weight: bold;
+  font-style: normal;
+  font-size: medium;
+  border: none;
+  width: 90px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: black;
+  color: hotpink;
+  transition: 0.5s;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
